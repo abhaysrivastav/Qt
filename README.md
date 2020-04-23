@@ -9,3 +9,4 @@
 ### QPointer
 ### QScopedPointer
 ### QSharedPointer
+## QSettings
