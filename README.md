@@ -10,3 +10,11 @@
 ### QScopedPointer
 ### QSharedPointer
 ## QSettings
+
+## Working with file system
+
+### QBuffer
+### QDir
+* entryList()
+
+
