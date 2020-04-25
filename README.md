@@ -17,4 +17,8 @@
 ### QDir
 * entryList()
 
+### QFile
+
+
+
 
