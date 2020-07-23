@@ -34,6 +34,16 @@ Window {
                 console.log("X : " + wheel.x + "Y: " + wheel.y)
             }
 
+            hoverEnabled: true
+            onHoveredChanged: {
+                if(containsMouse === true)
+                {
+                    movingRectId.color = "red"
+                }else{
+                    movingRectId.color = "green"
+                }
+            }
+
         }
 
     }
