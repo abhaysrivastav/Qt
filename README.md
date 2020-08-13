@@ -21,5 +21,8 @@
 
 ### QDataStream
 
+# How to Call C++ slot from QML ?
+### QQmlContext
 
+# How to call QML slots from C++ ?
 
