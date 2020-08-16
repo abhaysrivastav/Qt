@@ -4,8 +4,8 @@ import QtQuick.Controls 2.5
 
 Window {
     visible: true
-    width: 1920
-    height: 1080
+    width: 640
+    height: 480
     title: qsTr("Swipe View Page Indicator Demo")
 
     SwipeView {
