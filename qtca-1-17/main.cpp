@@ -4,6 +4,7 @@
 #include <QFuture>
 #include <QFutureWatcher>
 #include <QList>
+#include <QFutureIterator>
 
 int multiply(const int &value)
 {
@@ -47,6 +48,12 @@ int main(int argc, char *argv[])
     for (auto i = values.begin ();i < values.end (); i++)
     {
         qInfo() << "STL " << *i;
+    }
+
+    QFutureIterator<int> iter(future);
+
+    while (iter.hasNext ()) {
+        qInfo() << "Java Style : " << iter.next ();
     }
 
     qInfo() << "Done";
